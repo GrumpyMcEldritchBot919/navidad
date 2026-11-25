@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Navidad - Historia</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="../js/historia.js"></script>
+</head>
+<body>
+
+  <div class="caja">
+    <h1>Navidad</h1>
+    <a class="menu" href="../index.html">bienvenida</a>
+    <a class="menu" href="../paginas/historia.html">historia</a>
+    <a class="menu" href="../paginas/personajes.html">personajes</a>
+    <a class="menu" href="../paginas/regalos.html">Regalos</a>
+    <a class="menu" href="../paginas/comida.html">Comida</a>
+  </div>
+
+  <div class="caja contenido">
+    <h2>Historia</h2>
+
+    <div class="bloque" id="origen">
+      <h3>Origen</h3>
+      <p>La Navidad celebra el nacimiento de Jesus y se festeja cada 25 de diciembre.</p>
+    </div>
+
+    <div class="bloque" id="tradiciones">
+      <h3>Tradiciones</h3>
+      <p>El arbol, el pesebre, las luces y la cena familiar son una parte muy simbolica de la fiesta.</p>
+    </div>
+
+    <div class="bloque" id="hoy">
+      <h3>Hoy</h3>
+      <p> Siempre es un buen día para compartir en familia.</p>
+    </div>
+
+    <h3>Linea de tiempo</h3>
+    <p>Haz click en un año:</p>
+    <button onclick="verEvento('Año 336: primera celebracion de la Navidad en Roma con fecha registrada, el 25 de diciembre.')">336</button>
+    <button onclick="verEvento('Año 1223: San Francisco de Asis arma en Greccio (Italia) uno de los primeros pesebres vivientes.')">1223</button>
+    <button onclick="verEvento('Año 1818: se canta por primera vez el villancico «Noche de paz» en Austria.')">1818</button>
+    <button onclick="verEvento('Año 1843: en Inglaterra se imprime la primera tarjeta de Navidad.')">1843</button>
+
+    <p id="evento" class="bloque">Aqui saldra lo que paso ese año.</p>
+  </div>
+
+    <footer>
+  <div class="caja">
+    <p class="pie">Diseñado por: Marco Nina </p>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Navidad - Comida</title>
+  <link rel="stylesheet" href="../css/style.css">
+   <script src="../js/comida.js"></script>
+</head>
+<body>
+
+  <div class="caja">
+    <h1>Navidad</h1>
+    <a class="menu" href="../index.html">bienvenida</a>
+    <a class="menu" href="../paginas/historia.html">historia</a>
+    <a class="menu" href="../paginas/personajes.html">personajes</a>
+    <a class="menu" href="../paginas/regalos.html">Regalos</a>
+    <a class="menu" href="../paginas/comida.html">Comida</a>
+  </div>
+
+  <div class="caja contenido">
+    <h2>Comida</h2>
+
+    <table>
+      <tr>
+        <th>Plato</th>
+        <th>Precio</th>
+        <th></th>
+      </tr>
+      <tr>
+        <td>Pavo al horno</td>
+        <td>Bs 80</td>
+        <td><button onclick="comprar('Pavo al horno', 80)">Agregar</button></td>
+      </tr>
+      <tr>
+        <td>Picana</td>
+        <td>Bs 60</td>
+        <td><button onclick="comprar('Picana', 60)">Agregar</button></td>
+      </tr>
+      <tr>
+        <td>Panetón</td>
+        <td>Bs 25</td>
+        <td><button onclick="comprar('Panetón', 25)">Agregar</button></td>
+      </tr>
+      <tr>
+        <td>Chocolate caliente</td>
+        <td>Bs 10</td>
+        <td><button onclick="comprar('Chocolate caliente', 10)">Agregar</button></td>
+      </tr>
+    </table>
+
+    <h3>Carrito</h3>
+    <ul id="carrito"></ul>
+    <p><b>Total: Bs <span id="total">0</span></b></p>
+    <button onclick="vaciarCarrito()">Vaciar carrito</button>
+  </div>
+
+   <footer>
+  <div class="caja">
+    <p class="pie">Diseñado por: Marco Nina</p>
+  </div>
+</footer>
+
+ 
+</body>
+</html>

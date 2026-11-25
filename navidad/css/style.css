@@ -1,0 +1,171 @@
+
+:root {
+  --fondo: #f7f1e8;
+  --caja: #ffffff;
+  --borde: #b7cde3;
+  --azul: #4a6fa5;
+  --azul-claro: #7fa3cf;
+  --azul-suave: #e3edf7;
+  --texto: #2e3a4d;
+  --durazno: #f6dcd3;
+}
+
+body {
+  background-color: var(--fondo);
+  color: var(--texto);
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.5;
+  text-align: center;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.caja {
+  background-color: var(--caja);
+  border: 2px solid var(--borde);
+  border-radius: 12px;
+  padding: 18px;
+  margin: 14px 0;
+}
+
+h1 {
+  color: var(--azul);
+  font-size: 36px;
+  margin: 0 0 14px 0;
+}
+
+h2, h3 {
+  color: var(--azul);
+}
+
+.menu {
+  display: inline-block;
+  width: 150px;
+  background-color: var(--azul);
+  border-radius: 8px;
+  padding: 9px 8px;
+  margin: 4px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.menu:hover {
+  background-color: var(--azul-claro);
+}
+
+.contenido {
+  min-height: 300px;
+}
+
+.bloque {
+  background-color: var(--azul-suave);
+  border: 2px solid var(--borde);
+  border-radius: 10px;
+  padding: 12px;
+  margin: 12px 0;
+}
+
+#hoy {
+  background-color: var(--durazno);
+  border-color: #e8bfb2;
+}
+
+/* Tabla */
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: var(--azul);
+  color: white;
+}
+
+td, th {
+  padding: 8px 14px;
+  border: 1px solid var(--borde);
+}
+
+/* Botones y campos de texto */
+button {
+  background-color: var(--azul);
+  color: white;
+  font-family: inherit;
+  border: none;
+  border-radius: 8px;
+  padding: 7px 14px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--azul-claro);
+}
+
+input[type="text"] {
+  font-family: inherit;
+  border: 2px solid var(--borde);
+  border-radius: 8px;
+  padding: 7px 10px;
+}
+
+img {
+  border-radius: 10px;
+}
+
+.pie {
+  color: var(--azul);
+  font-size: 16px;
+  margin: 0;
+}
+
+ul {
+  width: fit-content;
+  margin: 0 auto;
+  text-align: left;
+  background-color: var(--azul-suave);
+  border: 2px solid var(--borde);
+  border-radius: 10px;
+  padding: 12px 20px 12px 38px;
+}
+
+ul:empty {
+  display: none;
+}
+
+li {
+  margin: 4px 0;
+}
+
+
+li button {
+  padding: 1px 8px;
+  margin-left: 8px;
+  font-size: 13px;
+}
+
+/* Textos destacados */
+.cuenta {
+  color: var(--azul);
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.contador {
+  color: var(--azul);
+  font-weight: bold;
+}
+
+
+.boton {
+  display: inline-block;
+  background-color: var(--azul);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 9px 16px;
+}
+
+.boton:hover {
+  background-color: var(--azul-claro);
+}
